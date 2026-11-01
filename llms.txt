@@ -38,3 +38,8 @@ All packages include a domain and hosting for the first year.
 - [Frequently asked questions](https://takemeonline.com/#faq)
 - [Contact TakeMeOnline](https://takemeonline.com/#contact)
 - [Structured data](https://takemeonline.com/schema.json)
+
+## Optional
+
+- [Privacy policy](https://takemeonline.com/privacy-policy.html): What personal data TakeMeOnline collects, how it is used and how to access, correct or delete it.
+- [Terms of service](https://takemeonline.com/terms-of-service.html): The terms covering quotes, payment, delivery times, renewals, ownership and search ranking results.

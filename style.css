@@ -39,7 +39,6 @@
   --font-heading: "Outfit", "Inter", system-ui, sans-serif;
   --font-body: "Inter", system-ui, sans-serif;
   --radius: 12px;
-  --shadow: 0 1px 2px rgb(15 23 42 / 0.05), 0 12px 32px rgb(15 23 42 / 0.07);
   --container: 1180px;
 }
 
@@ -345,10 +344,13 @@ mark {
   font-size: clamp(1.125rem, 2vw, 1.3125rem);
 }
 
+/* Paired buttons share one width, set by the longest label */
 .hero-actions {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
   gap: 0.875rem;
+  width: fit-content;
   margin-top: 2.25rem;
 }
 
@@ -856,7 +858,6 @@ mark {
 .price-featured {
   background: var(--navy);
   border-color: var(--navy);
-  box-shadow: var(--shadow);
   color: var(--on-navy);
 }
 
@@ -1064,10 +1065,16 @@ mark {
 }
 
 .contact-options {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
   gap: 0.75rem;
+  width: fit-content;
   margin-top: 1.75rem;
+}
+
+.contact-options .btn {
+  width: 100%;
 }
 
 .contact-steps {
@@ -1261,7 +1268,6 @@ mark {
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  box-shadow: var(--shadow);
 }
 
 .vs-table {
@@ -1353,7 +1359,7 @@ mark {
 }
 
 .why-cta .contact-options {
-  justify-content: center;
+  margin-inline: auto;
 }
 
 .why-cta .btn {
@@ -1372,7 +1378,6 @@ mark {
   height: 60px;
   background: #25d366;
   border-radius: 50%;
-  box-shadow: 0 14px 28px rgb(15 23 42 / 0.32);
   color: var(--navy);
   animation: levitate 2.8s ease-in-out infinite;
 }
@@ -1478,6 +1483,70 @@ mark {
   font-size: 0.875rem;
 }
 
+.footer-legal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+}
+
+.footer-legal a {
+  color: var(--on-navy);
+  text-decoration: none;
+}
+
+.footer-legal a:hover {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+/* Privacy policy and terms of service pages */
+.legal-hero h1 {
+  font-size: clamp(2.25rem, 5vw, 3.25rem);
+}
+
+.legal-date {
+  margin-top: 1rem;
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+
+.legal-section {
+  padding-block: clamp(2.5rem, 6vw, 4.5rem);
+}
+
+.legal-content > * {
+  max-width: 46rem;
+}
+
+.legal-content h2 {
+  margin-top: 2.5rem;
+  font-size: clamp(1.375rem, 2.5vw, 1.625rem);
+  line-height: 1.25;
+}
+
+.legal-content h2:first-child {
+  margin-top: 0;
+}
+
+.legal-content p,
+.legal-content ul {
+  margin-top: 0.875rem;
+}
+
+.legal-content ul {
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+
+.legal-content li + li {
+  margin-top: 0.5rem;
+}
+
+.legal-content strong {
+  color: var(--navy);
+  font-weight: 600;
+}
+
 /* Scroll reveal runs only when JavaScript is available */
 .js .reveal {
   opacity: 0;
@@ -1552,7 +1621,6 @@ mark {
     padding: 1rem 1.25rem 1.5rem;
     background: var(--bg);
     border-bottom: 1px solid var(--line);
-    box-shadow: 0 12px 24px rgb(15 23 42 / 0.08);
   }
 
   .site-nav.is-open {
@@ -1618,8 +1686,10 @@ mark {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .hero-actions .btn {
-    flex: 1 1 100%;
+  .hero-actions,
+  .contact-options {
+    grid-auto-flow: row;
+    width: 100%;
   }
 }
 
