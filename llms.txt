@@ -1,0 +1,40 @@
+# TakeMeOnline
+
+> TakeMeOnline helps offline businesses build a digital presence with a professional website, a Google Business Profile, local SEO and social media setup, at a fixed one-time price.
+
+## Services
+
+- [Website design](https://takemeonline.com/#services): Fast, mobile-friendly websites that make it easy for customers to call, message or visit.
+- [Local SEO and Google Business Profile](https://takemeonline.com/#services): Google Business Profile setup, on-page SEO and consistent listings for Google Search and Maps.
+- [Social media](https://takemeonline.com/#services): Instagram and Facebook profiles, branded templates and a simple content plan.
+
+## Pricing
+
+- [Starter, ₹9,999 one-time](https://takemeonline.com/#pricing): One-page website, Google Business Profile setup and WhatsApp button. Live in 7 days.
+- [Growth, ₹24,999 one-time](https://takemeonline.com/#pricing): Website of up to 5 pages, local SEO, Google Business Profile optimisation and two social media profiles. Live in 7 days.
+- [Pro, ₹49,999 one-time](https://takemeonline.com/#pricing): Website of up to 10 pages, online booking or a product catalogue, advanced local SEO and 30 days of social media content. Live in up to 14 days.
+
+All packages include a domain and hosting for the first year.
+
+## Pros and cons of taking a business online
+
+- Pros: more customers can find the business on Google and Maps, enquiries can arrive at any hour, and photos, prices and reviews build trust.
+- Cons: an upfront cost, ongoing upkeep, search results that take time to build, and public reviews that need replies.
+
+## Key facts
+
+- Customers: local and offline businesses, including shops, restaurants, cafes, clinics, salons, gyms, schools, colleges, coaching centres, hotels, real estate agents, car and bike workshops and home-service providers.
+- Area served: India.
+- Ownership: the domain, website content and business profiles are registered in the customer's business name.
+- Team: a real development team, not a low-cost template reseller.
+- Technical knowledge needed: none.
+- Rankings: TakeMeOnline does not guarantee a specific Google ranking, because Google controls its own results.
+- Last updated: 2026-11-01.
+
+## Links
+
+- [Why choose TakeMeOnline](https://takemeonline.com/why-us.html): How TakeMeOnline compares with low-cost websites and DIY website builders.
+- [Pros and cons of going online](https://takemeonline.com/#pros-cons)
+- [Frequently asked questions](https://takemeonline.com/#faq)
+- [Contact TakeMeOnline](https://takemeonline.com/#contact)
+- [Structured data](https://takemeonline.com/schema.json)

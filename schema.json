@@ -1,0 +1,243 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://takemeonline.com/#organization",
+      "name": "TakeMeOnline",
+      "url": "https://takemeonline.com/",
+      "logo": "https://takemeonline.com/images/logo.webp",
+      "image": "https://takemeonline.com/images/og-image.jpg",
+      "email": "hello@takemeonline.com",
+      "description": "TakeMeOnline helps offline businesses build a digital presence with a professional website, a Google Business Profile, local SEO and social media setup.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "priceRange": "₹9,999 - ₹49,999",
+      "knowsAbout": [
+        "Small business website design",
+        "Local SEO",
+        "Google Business Profile",
+        "Social media marketing"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Go-online packages",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Starter",
+            "price": "9999",
+            "priceCurrency": "INR",
+            "url": "https://takemeonline.com/#pricing",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Starter go-online package",
+              "description": "A mobile-friendly one-page website with Google Business Profile setup and a WhatsApp button."
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Growth",
+            "price": "24999",
+            "priceCurrency": "INR",
+            "url": "https://takemeonline.com/#pricing",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Growth go-online package",
+              "description": "A website of up to 5 pages with local SEO, Google Business Profile optimisation and two social media profiles."
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Pro",
+            "price": "49999",
+            "priceCurrency": "INR",
+            "url": "https://takemeonline.com/#pricing",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pro go-online package",
+              "description": "A website of up to 10 pages with online booking or a product catalogue, advanced local SEO and 30 days of social media content."
+            }
+          }
+        ]
+      },
+      "telephone": "+919999999999",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "telephone": "+919999999999",
+        "email": "hello@takemeonline.com",
+        "areaServed": "IN",
+        "availableLanguage": [
+          "en",
+          "hi"
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://takemeonline.com/#website",
+      "url": "https://takemeonline.com/",
+      "name": "TakeMeOnline",
+      "inLanguage": "en-IN",
+      "publisher": {
+        "@id": "https://takemeonline.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://takemeonline.com/#webpage",
+      "url": "https://takemeonline.com/",
+      "name": "TakeMeOnline: Take Your Offline Business Online in 7 Days",
+      "description": "TakeMeOnline gives offline businesses a professional website, a Google listing, local SEO and social media, at a fixed price and live in 7 days.",
+      "isPartOf": {
+        "@id": "https://takemeonline.com/#website"
+      },
+      "about": {
+        "@id": "https://takemeonline.com/#organization"
+      },
+      "inLanguage": "en-IN",
+      "datePublished": "2026-11-01",
+      "dateModified": "2026-11-01"
+    },
+    {
+      "@type": "Service",
+      "name": "Website design for local businesses",
+      "serviceType": "Website design",
+      "provider": {
+        "@id": "https://takemeonline.com/#organization"
+      },
+      "description": "Fast, mobile-friendly websites that show what a business offers and make it easy for customers to call, message or visit.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Local SEO and Google Business Profile",
+      "serviceType": "Search engine optimisation",
+      "provider": {
+        "@id": "https://takemeonline.com/#organization"
+      },
+      "description": "Google Business Profile setup, on-page SEO and consistent business listings that help nearby customers find a business in Google Search and Maps.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Social media setup and content",
+      "serviceType": "Social media marketing",
+      "provider": {
+        "@id": "https://takemeonline.com/#organization"
+      },
+      "description": "Professional Instagram and Facebook profiles with branded templates and a simple content plan.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://takemeonline.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does TakeMeOnline do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TakeMeOnline helps offline businesses build a digital presence. We create your website, set up your Google Business Profile, improve your local SEO and set up your social media, so customers can find and contact you online."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost to take a business online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our one-time packages start at ₹9,999 for a one-page website with a Google Business Profile. The Growth package costs ₹24,999 and the Pro package costs ₹49,999. The price is fixed and agreed before work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the pros and cons of taking a business online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The main pros are that more customers can find you on Google and Maps, you can receive enquiries at any hour, and photos, prices and reviews build trust. The main cons are the upfront cost, the upkeep needed to keep information current, search results that take time to build, and public reviews that need replies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will going online increase my sales?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can, because more people can find and contact your business, but it is not guaranteed. Results depend on your location, your competition, your offer and how well you keep your online profiles updated."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why not buy a ₹2,000 to ₹3,000 website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Websites at ₹2,000 to ₹3,000 are often copied templates with no SEO, slow loading and no support after delivery, so they rarely bring in customers. TakeMeOnline is a real development team that builds your website for speed and local search, and supports you through launch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to get my business online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Starter and Growth projects go live within 7 days of receiving your business details and photos. Pro projects take up to 14 days because they include more pages and features."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need any technical knowledge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. You tell us about your business and share your photos. We handle the design, setup and publishing, then show you how to make simple updates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will my business show up on Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We set up your website and Google Business Profile so your business can appear in Google Search and Maps. Google controls its own rankings, so no honest provider can guarantee the top position, but these steps give you a strong foundation for local search."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I own my website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Your domain name, website content and business profiles are registered in your business's name, so they stay yours even if you stop working with us."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there any ongoing costs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every package includes your domain and hosting for the first year. After that, you only pay the yearly domain and hosting renewal. Ongoing social media or SEO support is optional."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of businesses do you work with?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We work with local and offline businesses of all kinds, including shops, restaurants, cafes, clinics, salons, gyms, schools, colleges, coaching centres, hotels, real estate agents, workshops and home-service providers."
+          }
+        }
+      ]
+    }
+  ]
+}
